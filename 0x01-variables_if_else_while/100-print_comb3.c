@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
  * Return: 0
  */
 
 int main(void)
 {
-	int digit1 = 0, digit2;
+	int digit1 = 0;
+	int digit2;
 
 	while (digit1 <= 9)
 	{
@@ -27,10 +27,7 @@ int main(void)
 			}
 			digit2++;
 		}
-		digit1++;
+		putchar('\n');
+
+		return (0);
 	}
-	putchar('\n');
-
-	return (0);
-}
-
