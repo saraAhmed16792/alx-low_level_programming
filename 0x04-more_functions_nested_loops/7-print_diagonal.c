@@ -3,6 +3,7 @@
 /**
  * print_diagonal - draws a diagonal line on the terminal.
  * @n: number of times the char should printed
+ * Return: a diagonal
  */
 
 void print_diagonal(int n)
@@ -10,7 +11,8 @@ void print_diagonal(int n)
 	if (n <= 0)
 	{
 		_putchar('\n');
-	}else
+	}
+	else
 	{
 		int x, y;
 
