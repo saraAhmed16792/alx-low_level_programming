@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
  /**
   * main - prints numbers from 1 to 100
-  * 3 multiples print Frizz
+  * 3 multiples print Fizz
   * 5 multiples print Buzz
-  * 3 & 5 multiples print FrizzBuzz
+  * 3 & 5 multiples print FizzBuzz
   * Return: 0
   */
+
 int main(void)
 {
 	int i;
