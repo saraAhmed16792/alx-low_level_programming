@@ -18,13 +18,13 @@ int _sqrt_recursion(int n)
  * actual_sqrt_recursion - find the natural square root
  * @n: num to calculate square root
  * @i: iterator
- * @Return: result
+ * @Return: result of square root
  */
 int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
-	if (i * i ==n)
+	if (i * i == n)
 		return (i);
 	return (actual_sqrt_recursion(n, i + 1));
 }
