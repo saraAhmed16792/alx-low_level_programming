@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main: print num of argu
+ * main -  print num of argu
  * @argc: num of argus
  * @argv: array of argus
  * Return: 0
