@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * main - prints the minimum number of coins to make change
+ * main - prints the min number of coins to make change for an amount of money.
  * @argc: number of argus
- * @argc: array of argus
- * Return : 0
+ * @argv: array of argus
+ * Return: 0 for success , 1 for Error
  */
 int main(int argc, char *argv[])
 {
