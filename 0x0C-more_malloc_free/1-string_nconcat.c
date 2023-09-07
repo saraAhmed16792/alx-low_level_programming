@@ -3,8 +3,8 @@
 
 /**
  * *string_nconcat - concatenates two strings.
- * @S1: first string
- * @S2: second string
+ * @s1: first string
+ * @s2: second string
  * @n: num of bytes
  * Return: ptr to space in the memory
  */
