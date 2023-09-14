@@ -12,7 +12,7 @@ int op_mod(int a, int b);
  * op_add - returns the sum of a and b.
  * @a: first num
  * @b: second num
- * Return : Sum of a and b
+ * Return: Sum of a and b
  */
 int op_add(int a, int b)
 {
