@@ -28,12 +28,12 @@ void print_all(const char * const format, ...)
 					printf("%s%d", sep, va_arg(list, int));
 					break;
 				case 'f':
-				        printf("%s%f", sep, va_arg(list, double));
-				        break;
+					printf("%s%f", sep, va_arg(list, double));
+					break;
 				case 's':
 					str = va_arg(list, char *);
-					if(!str)
-					        str = "(nil)";
+					if (!str)
+						str = "(nil)";
 					printf("%s%s", sep, str);
 					break;
 
@@ -47,6 +47,5 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 	va_end(list);
-}
 
-							 
+}
