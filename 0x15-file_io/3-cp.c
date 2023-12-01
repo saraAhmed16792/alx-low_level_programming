@@ -4,11 +4,11 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * creates_buffer - allocates 1024 bytes
+ * create_buffer - allocates 1024 bytes
  * @file: name of the file buffer
  * Return: ptr to new buffer
  */
-char *creates_buffer(char *file)
+char *create_buffer(char *file)
 {
 	char *buffer;
 
