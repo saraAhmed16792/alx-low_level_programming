@@ -3,7 +3,6 @@
 /**
  * key_index - function that generates a distributed index
  * according to a given hash
- *
  * @key: key passed
  * @size: size of the hash tables
  * Return: key index
