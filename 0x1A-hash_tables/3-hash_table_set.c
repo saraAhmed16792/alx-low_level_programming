@@ -7,7 +7,6 @@
  * @ht: The hash table
  * @key: The key of the new element
  * @value: The value of the new element
- *
  * Return: 1 on success, 0 on failure
  */
 int
